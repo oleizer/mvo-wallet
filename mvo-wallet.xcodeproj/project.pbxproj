@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6C4AB3822707E6100CCCF37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C4AB3722707E6100CCCF37 /* AppDelegate.swift */; };
+		A6C4AB3A22707E6100CCCF37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C4AB3922707E6100CCCF37 /* ViewController.swift */; };
+		A6C4AB3D22707E6100CCCF37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C4AB3B22707E6100CCCF37 /* Main.storyboard */; };
+		A6C4AB3F22707E6300CCCF37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6C4AB3E22707E6300CCCF37 /* Assets.xcassets */; };
+		A6C4AB4222707E6300CCCF37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C4AB4022707E6300CCCF37 /* LaunchScreen.storyboard */; };
+		A6C4AB4D22707E6300CCCF37 /* mvo_walletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C4AB4C22707E6300CCCF37 /* mvo_walletTests.swift */; };
+		A6C4AB5822707E6300CCCF37 /* mvo_walletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C4AB5722707E6300CCCF37 /* mvo_walletUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6C4AB4922707E6300CCCF37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6C4AB2C22707E6100CCCF37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6C4AB3322707E6100CCCF37;
+			remoteInfo = "mvo-wallet";
+		};
+		A6C4AB5422707E6300CCCF37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6C4AB2C22707E6100CCCF37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6C4AB3322707E6100CCCF37;
+			remoteInfo = "mvo-wallet";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6C4AB3422707E6100CCCF37 /* mvo-wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mvo-wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C4AB3722707E6100CCCF37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6C4AB3922707E6100CCCF37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6C4AB3C22707E6100CCCF37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6C4AB3E22707E6300CCCF37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6C4AB4122707E6300CCCF37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6C4AB4322707E6300CCCF37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6C4AB4822707E6300CCCF37 /* mvo-walletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mvo-walletTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C4AB4C22707E6300CCCF37 /* mvo_walletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvo_walletTests.swift; sourceTree = "<group>"; };
+		A6C4AB4E22707E6300CCCF37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6C4AB5322707E6300CCCF37 /* mvo-walletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mvo-walletUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C4AB5722707E6300CCCF37 /* mvo_walletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvo_walletUITests.swift; sourceTree = "<group>"; };
+		A6C4AB5922707E6300CCCF37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6C4AB3122707E6100CCCF37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6C4AB4522707E6300CCCF37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6C4AB5022707E6300CCCF37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6C4AB2B22707E6100CCCF37 = {
+			isa = PBXGroup;
+			children = (
+				A6C4AB3622707E6100CCCF37 /* mvo-wallet */,
+				A6C4AB4B22707E6300CCCF37 /* mvo-walletTests */,
+				A6C4AB5622707E6300CCCF37 /* mvo-walletUITests */,
+				A6C4AB3522707E6100CCCF37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6C4AB3522707E6100CCCF37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6C4AB3422707E6100CCCF37 /* mvo-wallet.app */,
+				A6C4AB4822707E6300CCCF37 /* mvo-walletTests.xctest */,
+				A6C4AB5322707E6300CCCF37 /* mvo-walletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6C4AB3622707E6100CCCF37 /* mvo-wallet */ = {
+			isa = PBXGroup;
+			children = (
+				A6C4AB3722707E6100CCCF37 /* AppDelegate.swift */,
+				A6C4AB3922707E6100CCCF37 /* ViewController.swift */,
+				A6C4AB3B22707E6100CCCF37 /* Main.storyboard */,
+				A6C4AB3E22707E6300CCCF37 /* Assets.xcassets */,
+				A6C4AB4022707E6300CCCF37 /* LaunchScreen.storyboard */,
+				A6C4AB4322707E6300CCCF37 /* Info.plist */,
+			);
+			path = "mvo-wallet";
+			sourceTree = "<group>";
+		};
+		A6C4AB4B22707E6300CCCF37 /* mvo-walletTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6C4AB4C22707E6300CCCF37 /* mvo_walletTests.swift */,
+				A6C4AB4E22707E6300CCCF37 /* Info.plist */,
+			);
+			path = "mvo-walletTests";
+			sourceTree = "<group>";
+		};
+		A6C4AB5622707E6300CCCF37 /* mvo-walletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6C4AB5722707E6300CCCF37 /* mvo_walletUITests.swift */,
+				A6C4AB5922707E6300CCCF37 /* Info.plist */,
+			);
+			path = "mvo-walletUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6C4AB3322707E6100CCCF37 /* mvo-wallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C4AB5C22707E6300CCCF37 /* Build configuration list for PBXNativeTarget "mvo-wallet" */;
+			buildPhases = (
+				A6C4AB3022707E6100CCCF37 /* Sources */,
+				A6C4AB3122707E6100CCCF37 /* Frameworks */,
+				A6C4AB3222707E6100CCCF37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mvo-wallet";
+			productName = "mvo-wallet";
+			productReference = A6C4AB3422707E6100CCCF37 /* mvo-wallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6C4AB4722707E6300CCCF37 /* mvo-walletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C4AB5F22707E6300CCCF37 /* Build configuration list for PBXNativeTarget "mvo-walletTests" */;
+			buildPhases = (
+				A6C4AB4422707E6300CCCF37 /* Sources */,
+				A6C4AB4522707E6300CCCF37 /* Frameworks */,
+				A6C4AB4622707E6300CCCF37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6C4AB4A22707E6300CCCF37 /* PBXTargetDependency */,
+			);
+			name = "mvo-walletTests";
+			productName = "mvo-walletTests";
+			productReference = A6C4AB4822707E6300CCCF37 /* mvo-walletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6C4AB5222707E6300CCCF37 /* mvo-walletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C4AB6222707E6300CCCF37 /* Build configuration list for PBXNativeTarget "mvo-walletUITests" */;
+			buildPhases = (
+				A6C4AB4F22707E6300CCCF37 /* Sources */,
+				A6C4AB5022707E6300CCCF37 /* Frameworks */,
+				A6C4AB5122707E6300CCCF37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6C4AB5522707E6300CCCF37 /* PBXTargetDependency */,
+			);
+			name = "mvo-walletUITests";
+			productName = "mvo-walletUITests";
+			productReference = A6C4AB5322707E6300CCCF37 /* mvo-walletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6C4AB2C22707E6100CCCF37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Олег Лейзер";
+				TargetAttributes = {
+					A6C4AB3322707E6100CCCF37 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A6C4AB4722707E6300CCCF37 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A6C4AB3322707E6100CCCF37;
+					};
+					A6C4AB5222707E6300CCCF37 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A6C4AB3322707E6100CCCF37;
+					};
+				};
+			};
+			buildConfigurationList = A6C4AB2F22707E6100CCCF37 /* Build configuration list for PBXProject "mvo-wallet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6C4AB2B22707E6100CCCF37;
+			productRefGroup = A6C4AB3522707E6100CCCF37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6C4AB3322707E6100CCCF37 /* mvo-wallet */,
+				A6C4AB4722707E6300CCCF37 /* mvo-walletTests */,
+				A6C4AB5222707E6300CCCF37 /* mvo-walletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6C4AB3222707E6100CCCF37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C4AB4222707E6300CCCF37 /* LaunchScreen.storyboard in Resources */,
+				A6C4AB3F22707E6300CCCF37 /* Assets.xcassets in Resources */,
+				A6C4AB3D22707E6100CCCF37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6C4AB4622707E6300CCCF37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6C4AB5122707E6300CCCF37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6C4AB3022707E6100CCCF37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C4AB3A22707E6100CCCF37 /* ViewController.swift in Sources */,
+				A6C4AB3822707E6100CCCF37 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6C4AB4422707E6300CCCF37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C4AB4D22707E6300CCCF37 /* mvo_walletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6C4AB4F22707E6300CCCF37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C4AB5822707E6300CCCF37 /* mvo_walletUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6C4AB4A22707E6300CCCF37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6C4AB3322707E6100CCCF37 /* mvo-wallet */;
+			targetProxy = A6C4AB4922707E6300CCCF37 /* PBXContainerItemProxy */;
+		};
+		A6C4AB5522707E6300CCCF37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6C4AB3322707E6100CCCF37 /* mvo-wallet */;
+			targetProxy = A6C4AB5422707E6300CCCF37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6C4AB3B22707E6100CCCF37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C4AB3C22707E6100CCCF37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6C4AB4022707E6300CCCF37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C4AB4122707E6300CCCF37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6C4AB5A22707E6300CCCF37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6C4AB5B22707E6300CCCF37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6C4AB5D22707E6300CCCF37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AC6F95FHB4;
+				INFOPLIST_FILE = "mvo-wallet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.idev.mvo-wallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6C4AB5E22707E6300CCCF37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AC6F95FHB4;
+				INFOPLIST_FILE = "mvo-wallet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.idev.mvo-wallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6C4AB6022707E6300CCCF37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AC6F95FHB4;
+				INFOPLIST_FILE = "mvo-walletTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.idev.mvo-walletTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mvo-wallet.app/mvo-wallet";
+			};
+			name = Debug;
+		};
+		A6C4AB6122707E6300CCCF37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AC6F95FHB4;
+				INFOPLIST_FILE = "mvo-walletTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.idev.mvo-walletTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mvo-wallet.app/mvo-wallet";
+			};
+			name = Release;
+		};
+		A6C4AB6322707E6300CCCF37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AC6F95FHB4;
+				INFOPLIST_FILE = "mvo-walletUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.idev.mvo-walletUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mvo-wallet";
+			};
+			name = Debug;
+		};
+		A6C4AB6422707E6300CCCF37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AC6F95FHB4;
+				INFOPLIST_FILE = "mvo-walletUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.idev.mvo-walletUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mvo-wallet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6C4AB2F22707E6100CCCF37 /* Build configuration list for PBXProject "mvo-wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C4AB5A22707E6300CCCF37 /* Debug */,
+				A6C4AB5B22707E6300CCCF37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C4AB5C22707E6300CCCF37 /* Build configuration list for PBXNativeTarget "mvo-wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C4AB5D22707E6300CCCF37 /* Debug */,
+				A6C4AB5E22707E6300CCCF37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C4AB5F22707E6300CCCF37 /* Build configuration list for PBXNativeTarget "mvo-walletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C4AB6022707E6300CCCF37 /* Debug */,
+				A6C4AB6122707E6300CCCF37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C4AB6222707E6300CCCF37 /* Build configuration list for PBXNativeTarget "mvo-walletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C4AB6322707E6300CCCF37 /* Debug */,
+				A6C4AB6422707E6300CCCF37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6C4AB2C22707E6100CCCF37 /* Project object */;
+}
